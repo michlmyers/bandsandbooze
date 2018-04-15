@@ -1,0 +1,175 @@
+body {
+  background-color: black;
+  font-family: 'Cabin', sans-serif;
+  text-align: center; /* I centered this*/
+}
+
+#featured-div {
+  color: whitesmoke;
+}
+
+#logo {
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttonStyle { /*threw this in to make the search and clear links pop frmo the back ground a little more */
+  border: 1px solid white; 
+  background-color: rgb(51, 47, 47);
+}
+
+.buttonStyle a:hover { /* this too (see above)*/
+  background-color: rgb(6, 131, 214);
+  color: white;
+  font-size: 17px;
+}
+
+#featured-div p {
+  font-family: 'Gloria Hallelujah';
+  font-size: 20px;
+}
+
+#welcome {
+  color: white;
+}
+
+#upcomingEventDiv{
+  color: white;
+}
+
+/* 
+#recent-user-header {
+  color: white;
+}
+
+.date-div {
+  display: inline-block;
+}
+
+.venue-div {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.verticalLine {
+  display: inline-block;
+  margin-left: 25px;
+    border-left: solid grey;
+    border-width: 1px;
+    height: 4em;
+}
+
+.artist-poster{
+  height: 300px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+*/
+/*   
+.jumbotron {
+  background-color: #DCAE1D;
+  color: #393f4d;
+  color: white;
+  background-repeat: repeat-x;
+  background-image: url("cLErj2.jpg");
+  background-size: 100%;
+  border-style: solid; 
+  border-width: 1px;
+ padding-top: 100px;
+}
+
+.well {
+  background-color:  #ffffff; 
+}
+
+.well div[id^="tourDiv-"] {
+  background-color: #ccf2ff;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 110px;
+  margin-left: 113px;
+  border-radius: 30px;
+}
+
+#enter {
+  color: white;
+}
+#no-shows {
+  color:white;
+}
+
+.instruction {
+  color: #d4d4dc;
+}
+
+ */
+.page-title {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 930px;
+  display: block;
+  position: relative;
+  background: #333333;
+  background-image: url("https://images.unsplash.com/photo-1448485780098-7e0b78781fc1?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450");
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 50px;
+}
+.wrapper:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111111;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .6;
+}
+.wrapper .container {
+  z-index: 2;
+  position: relative;
+}
+.wrapper footer {
+  position: absolute;
+  z-index: 3;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.wrapper footer h3 {
+  color: #FFFFFF;
+  font-weight: 200;
+}
+.wrapper footer h3 a{
+    color:#eeeeee;
+}
+.wrapper footer .social-icon {
+  color: #FFFFFF;
+  opacity: 0.8;
+  font-size: 34px;
+  margin: 20px;
+}
+.wrapper footer .social-icon:hover {
+  opacity: 1;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+.input-field{
+background-color:white;
+}

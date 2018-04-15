@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+
+    <!-- style.css link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+    <title>Bands and Booze</title>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- container div for search html elements -->
+        <div class="container">
+
+            <!-- div for header/title of page -->
+            <div class="center-align">
+                <!-- free logo -->
+                <img id="logo" src="assets/images/LogoMakr_2fCf5O.png" alt="logo">
+
+                <!-- <h1 class="text-center">Musichead Travel</h1> -->
+
+            </div>
+
+            <div id="welcome" class="center-align">
+
+                <h3>Welcome!</h3> 
+                <h5>We're here to help you catch your favorite musicians when they are on tour.</h5> 
+                <h5>We're also here to show you locations of the nearest bars to the concert!</h5> 
+                <h5>Enter an artist's name into our search engine to get started!</h5>
+                <p>PLEASE DRINK RESPONSIBLY</p>
+                    <hr>
+
+            </div>
+
+            <!-- form for artist/musician search field -->
+            <form>
+                <!-- input for search term/keywords -->
+                <div class="form-group">
+                    <label class="instruction" for="searchBand">
+                        <span id="enter"></span>
+                    </label>
+                    <div class="input-field">
+                        <input type="text" class="form-control" id="searchBand" placeholder=" Enter Musician/Band Name Here">
+                    </div>
+                </div>
+
+            </form>
+
+            <!-- buttons -->
+            <div class="buttonStyle">
+                <div>
+            <a class="waves-effect waves-light btn blue" id="search-btn">Search</a>
+                </div>
+            <a class="waves-effect waves-light btn blue" id="clear-btn">Clear Results</a>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+
+        <!-- div to push all search results html -->
+        <div class="container" id="results-div"></div>
+
+        <div class="container">
+            <hr>
+            <h1 class="text-center" id="upcomingEventDiv">Upcoming Events</h1>
+        </div>
+
+        <div class="container" id="featured-div"> </div>
+
+    </div>
+   
+   
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <div id="map"></div>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat center-align">Close</a> 
+        </div>
+
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmd0Du1P5eZCZQTvzdqV9GDg5bpFeKxuE&libraries=places" async
+        defer></script>
+
+    
+    <!-- jquery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   
+    <!-- js file link -->
+    <script type="text/javascript" src="assets/js/bands.js"></script>
+    <script type="text/javascript" src="assets/js/placesApi.js"></script>
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+
+
+</body>
+
+</html>
